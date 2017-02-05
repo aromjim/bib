@@ -1,0 +1,39 @@
+Lógica matemática
+Computación bioinspirada
+Máquinas de virus
+Inteligencia artificial
+Redes bayesianas
+Modelos gráficos probabilísticos
+Aprendizaje automático
+Algoritmos genéticos
+Metaheurísticas
+Planificación automática
+Redes neuronales
+Lenguaje de programación Python
+Lenguaje de programación R
+Modelos de Markov
+Computación con membranas
+Ciencias de la computación
+Algoritmos evolutivos
+Matemática computacional
+Programación orientada a objetos
+Libro solicitado
+Procesos de Markov
+Estadística
+Visualización de datos
+Geometría
+Macrodatos
+Computación evolutiva
+Simulación por ordenador
+No disponible en la BUS
+Ciencia del dato
+Complejidad computacional
+Desarrollo web
+Investigación reproducible
+Métodos de Monte Carlo
+Estadística computacional
+Simulación estocástica
+GPGPU
+Computación paralela
+Búsqueda heurística
+Lenguaje de programación Prolog
