@@ -38,3 +38,6 @@ Computación paralela
 Búsqueda heurística
 Lenguaje de programación Prolog
 Lógica difusa
+Programación matemática
+Investigación operativa
+Optimización estocástica
