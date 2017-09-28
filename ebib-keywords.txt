@@ -41,3 +41,4 @@ Lógica difusa
 Programación matemática
 Investigación operativa
 Optimización estocástica
+Programación
