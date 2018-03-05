@@ -43,3 +43,4 @@ Investigación operativa
 Optimización estocástica
 Programación
 Historia de las Matemáticas
+Algoritmia
