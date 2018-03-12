@@ -44,3 +44,4 @@ Optimización estocástica
 Programación
 Historia de las Matemáticas
 Algoritmia
+Análisis de lenguajes
