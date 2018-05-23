@@ -46,3 +46,5 @@ Historia de las Matemáticas
 Algoritmia
 Análisis de lenguajes
 Gráficos interactivos
+Análisis de valores atípicos
+NP-completitud
