@@ -48,3 +48,5 @@ Análisis de lenguajes
 Gráficos interactivos
 Análisis de valores atípicos
 NP-completitud
+Teoría de grafos
+Matemática discreta
