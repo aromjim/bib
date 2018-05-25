@@ -50,3 +50,4 @@ Análisis de valores atípicos
 NP-completitud
 Teoría de grafos
 Matemática discreta
+Robótica
