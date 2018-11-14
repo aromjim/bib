@@ -52,3 +52,4 @@ Teoría de grafos
 Matemática discreta
 Robótica
 Análisis de datos
+Verificación de modelos
