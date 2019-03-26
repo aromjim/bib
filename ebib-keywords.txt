@@ -53,3 +53,4 @@ Matemática discreta
 Robótica
 Análisis de datos
 Verificación de modelos
+Problemas de optimización
