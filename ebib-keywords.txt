@@ -55,3 +55,4 @@ Análisis de datos
 Verificación de modelos
 Problemas de optimización
 Análisis de grupos
+Visión por ordenador
