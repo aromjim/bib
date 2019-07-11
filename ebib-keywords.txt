@@ -58,3 +58,7 @@ Análisis de grupos
 Visión por ordenador
 Análisis de datos espaciales
 Análisis de valores perdidos
+Estructuras de datos
+Lenguaje de modelización UML
+Aprendizaje profundo
+Ingeniería del software
