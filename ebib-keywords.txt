@@ -62,3 +62,5 @@ Estructuras de datos
 Lenguaje de modelización UML
 Aprendizaje profundo
 Ingeniería del software
+Patrones de diseño
+Festschrift
