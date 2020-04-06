@@ -17,6 +17,7 @@
 @String{Elsevier = {Elsevier}}
 @String{Kronos = {Editorial Kronos}}
 @String{LNCS = {Lecture Notes in Computer Science}}
+@String{Microtome = {Microtome Publishing}}
 @String{MIT_Press = {The {MIT} Press}}
 @String{Modern_Birkhäuser_Classics = {Modern Birkhäuser Classics}}
 @String{Morgan-Kaufmann = {Morgan-Kaufmann}}
@@ -568,6 +569,41 @@ computer science: SAT solvers and model checking.},
 	pagetotal = {346},
 	publisher = Springer,
 	title = {Mathematical Logic for Computer Science}
+}
+
+@Article{bengio_et_al:neural_probabilistic_language_model,
+	xdata = {journal_machine_learning_research},
+	file = {Artículos_en_revistas/Bengio_et_al-2003-A_Neural_Probabilistic_Language_Model.pdf},
+	keywords = {Procesamiento de lenguaje natural},
+	abstract = {A goal of statistical language modeling is to learn the joint probability
+function of sequences of words in a language. This is intrinsically difficult
+because of the **curse of dimensionality**: a word sequence on which the model
+will be tested is likely to be different from all the word sequences seen
+during training. Traditional but very successful approaches based on n-grams
+obtain generalization by concatenating very short overlapping sequences seen in
+the training set. We propose to fight the curse of dimensionality by **learning
+a distributed representation for words** which allows each training sentence to
+inform the model about an exponential number of semantically neighboring
+sentences. The model learns simultaneously (1) a distributed representation for
+each word along with (2) the probability function for word sequences, expressed
+in terms of these representations. Generalization is obtained because a
+sequence of words that has never been seen before gets high probability if it
+is made of words that are similar (in the sense of having a nearby
+representation) to words forming an already seen sentence. Training such large
+models (with millions of parameters) within a reasonable time is itself a
+significant challenge. We report on experiments using neural networks for the
+probability function, showing on two text corpora that the proposed approach
+significantly improves on state-of-the-art n-gram models, and that the proposed
+approach allows to take advantage of longer contexts.},
+	langidopts = {version=british},
+	langid = {english},
+	url = {http://www.jmlr.org/papers/v3/bengio03a.html},
+	pages = {1137-1155},
+	volume = {3},
+	language = {english},
+	date = {2003},
+	title = {A Neural Probabilistic Language Model},
+	author = {Bengio, Yoshua and Ducharme, Réjean and Vincent, Pascal and Jauvin, Christian}
 }
 
 @Article{bianchi_et_al:survey_metaheuristics_stochastic_combinatorial_optimization,
@@ -3122,6 +3158,12 @@ Markov decision processes.},
 	publisher = Elsevier
 }
 
+@XData{journal_machine_learning_research,
+	journaltitle = {Journal of Machine Learning Research},
+	issn = {1532-4435},
+	publisher = Microtome
+}
+
 @XData{journal_software,
 	journaltitle = {Journal of Software},
 	issn = {1796-217X}
@@ -4153,6 +4195,29 @@ simulations, and rearranging complex data into simpler, more useful formats.},
 	author = {Matloff, Norman},
 	date = {2011},
 	keywords = {Lenguaje de programación R}
+}
+
+@Online{mikolov_et_al:efficient_estimation_word_representations_vector_space,
+	eprintclass = {cs.CL},
+	eprinttype = {arxiv},
+	eprint = {1301.3781},
+	file = {Publicaciones_electrónicas/Mikolov_et_al-2013-Efficient_estimation_of_word_representations_in_vector_space.pdf},
+	keywords = {Procesamiento de lenguaje natural},
+	abstract = {We propose two novel model architectures for computing continuous vector
+representations of words from very large data sets. The quality of these
+representations is measured in a word similarity task, and the results are
+compared to the previously best performing techniques based on different types
+of neural networks. We observe large improvements in accuracy at much lower
+computational cost, i.e. it takes less than a day to learn high quality word
+vectors from a 1.6 billion words data set. Furthermore, we show that these
+vectors provide state-of-the-art performance on our test set for measuring
+syntactic and semantic word similarities.},
+	langidopts = {variant=british},
+	langid = {english},
+	language = {english},
+	date = {2013},
+	title = {Efficient Estimation of Word Representations in Vector Space},
+	author = {Mikolov, Tomas and Chen, Kai and Corrado, Greg and Dean, Jeffrey}
 }
 
 @Book{mohanty_et_al:big_data,
@@ -6311,6 +6376,35 @@ disciplines.},
 	date = {2018},
 	title = {Probability Distributions},
 	author = {Thomopoulos, Nick T.}
+}
+
+@Article{turney_pantel:from_frequency_to_meaning,
+	file = {Artículos_en_revistas/Turney_Pantel-2010-From_Frequency_to_Meaning:_Vector_Space_Models_of_Semantics.pdf},
+	keywords = {Procesamiento de lenguaje natural},
+	abstract = {Computers understand very little of the meaning of human language. This
+profoundly limits our ability to give instructions to computers, the ability of
+computers to explain their actions to us, and the ability of computers to
+analyse and process text. Vector space models (VSMs) of semantics are beginning
+to address these limits. This paper surveys the use of VSMs for semantic
+processing of text. We organize the literature on VSMs according to the
+structure of the matrix in a VSM. There are currently three broad classes of
+VSMs, based on term-document, word-context, and pair-pattern matrices, yielding
+three classes of applications. We survey a broad range of applications in these
+three categories and we take a detailed look at a specific open source project
+in each category. Our goal in this survey is to show the breadth of
+applications of VSMs for semantics, to provide a new perspective on VSMs for
+those who are already familiar with the area, and to provide pointers into the
+literature for those who are less familiar with the field.},
+	langidopts = {variant=british},
+	langid = {english},
+	doi = {10.1613/jair.2934},
+	pages = {141-188},
+	volume = {37},
+	language = {english},
+	xdata = {journal_artificial_intelligence_research},
+	date = {2010},
+	title = {From Frequency to Meaning: Vector Space Models of Semantics},
+	author = {Turney, Peter David and Pantel, Patrick}
 }
 
 @book{unwin:graphical_data_analysis_r,
