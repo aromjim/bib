@@ -65,5 +65,5 @@ Ingeniería del software
 Patrones de diseño
 Festschrift
 Teoría de la probabilidad
-Procesamiento de lenguaje natural
+Procesamiento del lenguaje natural
 Aprendizaje por refuerzo
