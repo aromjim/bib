@@ -69,3 +69,4 @@ Procesamiento del lenguaje natural
 Aprendizaje por refuerzo
 Problema SAT
 Teoría de la Computación
+Docencia
