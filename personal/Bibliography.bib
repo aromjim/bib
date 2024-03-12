@@ -84,6 +84,35 @@
 @String{Taylor_Francis = {Taylor \& Francis}}
 @String{R_Foundation = {The R Foundation}}
 
+@Article{zeileis_murrel:coloring_r_blind_spot,
+	file = {Artículos_en_revistas/Zeileis_Murrel-2023-Coloring_in_R’s_Blind_Spot.pdf},
+	keywords = {Lenguaje de programación R, Visualización de datos},
+	abstract = {Prior to version 4.0.0 R had a poor default color palette (using highly
+saturated red, green, blue, etc.) and provided very few alternative palettes,
+most of which also had poor perceptual properties (like the infamous rainbow
+palette). Starting with version 4.0.0 R gained a new and much improved default
+palette and, in addition, a selection of more than 100 well-established palettes
+are now available via the functions palette.colors() and hcl.colors(). The
+former provides a range of popular qualitative palettes for categorical data
+while the latter closely approximates many popular sequential and diverging
+palettes by systematically varying the perceptual hue, chroma, and luminance
+(HCL) properties in the palette. This paper provides a mix of contributions
+including an overview of the new color functions and the palettes they provide
+along with advice about which palettes are appropriate for specific tasks,
+especially with regard to making them accessible to viewers with color vision
+deficiencies.},
+	langidopts = {variant=british},
+	langid = {english},
+	doi = {10.32614/RJ-2023-071},
+	xdata = {r_journal},
+	pages = {240-256},
+	number = {3},
+	volume = {15},
+	date = {2023},
+	title = {Coloring in R’s Blind Spot},
+	author = {Zeileis, Achim and Murrel, Paul}
+}
+
 @Article{wang_et_al:fuzzy_membrane_computing,
 	issuesubtitle = {Special Issue on Fuzzy Sets and Applications (Celebration of the 50th Anniversary of Fuzzy Sets)},
 	xdata = {computers_communications_control},
@@ -5508,6 +5537,42 @@ R graphics and the major extensions of R graphics.},
 	author = {Murrel, Paul}
 }
 
+@Book{murrel:r_graphics_3_ed,
+	series = CRC_R_Series,
+	abstract = {This third edition of Paul Murrell’s classic book on using R for graphics
+represents a major update, with a complete overhaul in focus and scope. It
+focuses primarily on the two core graphics packages in R - graphics and grid -
+and has a new section on integrating graphics. This section includes three new
+chapters: importing external images in to R; integrating the graphics and grid
+systems; and advanced SVG graphics.
+
+The emphasis in this third edition is on having the ability to produce detailed
+and customised graphics in a wide variety of formats, on being able to share and
+reuse those graphics, and on being able to integrate graphics from multiple
+systems.
+
+This book is aimed at all levels of R users. For people who are new to R, this
+book provides an overview of the graphics facilities, which is useful for
+understanding what to expect from R's graphics functions and how to modify or
+add to the output they produce. For intermediate-level R users, this book
+provides all of the information necessary to perform sophisticated
+customizations of plots produced in R. For advanced R users, this book contains
+vital information for producing coherent, reusable, and extensible graphics
+functions.},
+	keywords = {Lenguaje de programación R, Visualización de datos},
+	langidopts = {variant=british},
+	langid = {english},
+	url = {https://www.routledge.com/R-Graphics-Third-Edition/Murrell/p/book/9780367780692},
+	pagetotal = {441},
+	isbn = {9780367780692},
+	publisher = CRC,
+	edition = {3},
+	language = {english},
+	date = {2021},
+	title = {R Graphics},
+	author = {Murrel, Paul}
+}
+
 @Book{murtaza:getting_started_data_science,
 	enlaces = {Biblioteca de la Universidad de Sevilla: https://fama.us.es/discovery/fulldisplay?docid=alma991013090791604987&context=L&vid=34CBUA_US:VU1&search_scope=all_libraries_profile&tab=LibrariesSearch&lang=es
 },
@@ -6308,6 +6373,12 @@ this book form follows a long tradition in biology.},
 	date = {1996},
 	title = {The Algorithmic Beauty of Plants},
 	author = {Prusinkiewicz, Przemyslaw and Lindenmayer, Aristid}
+}
+
+@XData{r_journal,
+	journaltitle = {The R Journal},
+	issn = {2073-4859},
+	publisher = R_Foundation
 }
 
 @Online{r_project_statistical_computing,
@@ -7321,12 +7392,6 @@ dynamical systems.},
 	publisher = Elsevier
 }
 
-@XData{r_journal,
-	journaltitle = {The R Journal},
-	issn = {2073-4859},
-	publisher = R_Foundation
-}
-
 @Book{theus_urbanek:interactive_graphics_data_analysis,
 	enlaces = {Biblioteca de la Universidad de Sevilla: http://encore.fama.us.es/iii/encore/record/C__Rb2640878
 },
@@ -8044,35 +8109,6 @@ approach to this widely used discipline.},
 	date = {2010},
 	title = {Introduction to Evolutionary Algorithms},
 	author = {Yu, Xinjie and Gen, Mitsuo}
-}
-
-@Article{zeileis_murrel:coloring_r_blind_spot,
-	file = {Artículos_en_revistas/Zeileis_Murrel-2023-Coloring_in_R’s_Blind_Spot.pdf},
-	keywords = {Lenguaje de programación R, Visualización de datos},
-	abstract = {Prior to version 4.0.0 R had a poor default color palette (using highly
-saturated red, green, blue, etc.) and provided very few alternative palettes,
-most of which also had poor perceptual properties (like the infamous rainbow
-palette). Starting with version 4.0.0 R gained a new and much improved default
-palette and, in addition, a selection of more than 100 well-established palettes
-are now available via the functions palette.colors() and hcl.colors(). The
-former provides a range of popular qualitative palettes for categorical data
-while the latter closely approximates many popular sequential and diverging
-palettes by systematically varying the perceptual hue, chroma, and luminance
-(HCL) properties in the palette. This paper provides a mix of contributions
-including an overview of the new color functions and the palettes they provide
-along with advice about which palettes are appropriate for specific tasks,
-especially with regard to making them accessible to viewers with color vision
-deficiencies.},
-	langidopts = {variant=british},
-	langid = {english},
-	doi = {10.32614/RJ-2023-071},
-	xdata = {r_journal},
-	pages = {240-256},
-	number = {3},
-	volume = {15},
-	date = {2023},
-	title = {Coloring in R’s Blind Spot},
-	author = {Zeileis, Achim and Murrel, Paul}
 }
 
 @Book{zimmerman:teaching_AI,
